@@ -82,7 +82,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
                 public void onClick(View v) {
                     int mPosition=getLayoutPosition();
                     Student s= listStudents.get(mPosition);
-                    Intent i = new Intent(context,DeleteScreen.class);
+                    Intent i = new Intent(context,UpdateScreen.class);
                     i.putExtra("id",s.getId());
                     i.putExtra("name",s.getName());
                     i.putExtra("classhoc",s.getClasshoc());
