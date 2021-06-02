@@ -75,7 +75,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ePassS1" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvExitS1"
         android:layout_width="45dp"
         android:layout_height="27dp"
         android:layout_marginBottom="32dp"
